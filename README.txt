@@ -1,4 +1,4 @@
-# Pareekshit's Portfolio Website
+# Rounak's Portfolio Website
 
 Welcome to my portfolio website! This repository contains the code for my personal portfolio website, showcasing my projects, skills, and experiences.
 
@@ -16,9 +16,9 @@ I am a passionate data scientist with 5+ years experience in Machine Learning an
 
 🧑‍🏭 𝗛𝗲𝗿𝗲 𝗮𝗿𝗲 𝗮 𝗳𝗲𝘄 𝗲𝘅𝗮𝗺𝗽𝗹𝗲𝘀 𝗼𝗳 𝗺𝘆 𝘄𝗼𝗿𝗸:
 
-• During my internship at GHD, I 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗮 𝗰𝘂𝘀𝘁𝗼𝗺 𝗰𝗵𝗮𝘁𝗯𝗼𝘁 using Azure ML and GPT models for streamlined data-related inquiries. I also improved the forecasting model accuracy by 24% using advanced analytics and created dashboards for monitoring drought conditions using predictive algorithms. 
+• During my internship at Boehringer Ingelheim, I 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗮 𝗰𝘂𝘀𝘁𝗼𝗺 Multimodal RAG 𝗰𝗵𝗮𝘁𝗯𝗼𝘁 using Azure ML and GPT models for streamlined data-related inquiries. I also improved the intent recognition model accuracy by 24% using PEFT, LoRA, Conducted cloud resources advanced cost analytics and created dashboards for monitoring usage and budget estimation using predictive algorithms. 
 
-• Created an Agro-Policy Recommendation bot using LLMs and Langchain for the Climate and Sustainability Hackathon hosted by Cloudera and AMD. It secured a spot in the 𝗧𝗼𝗽 𝟭𝟬 𝗮𝗺𝗼𝗻𝗴 𝟲𝟬𝟬+ 𝘁𝗲𝗮𝗺𝘀.
+• Created a Speech Co-pilot using LLMs and Langchain automating audio analysis pipelines for semantic extraction and summarization.
 
 I am committed to pushing the boundaries of data science and exploring new opportunities to make a positive impact with data. 
 
@@ -41,9 +41,9 @@ I am committed to pushing the boundaries of data science and exploring new oppor
   
 ## Contact Me
 
-- **Email:** [gaddam.pa@northeastern.edu]
-- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/pareekshitreddy/)
-- **GitHub:** [GitHub Profile](https://github.com/pareekshitreddy)
+- **Email:** [bende.r@northeastern.edu]
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/rounakbende/)
+- **GitHub:** [GitHub Profile](https://github.com/rounakbende10)
 
 Feel free to reach out to me via email or connect with me on LinkedIn. You can also check out my projects on GitHub.
 
