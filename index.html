@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<!--
+  Massively by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Rounak Bende</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Additional inline CSS to style the Intro section and profile pic -->
+    <style>
+      /* Make the Intro content a flex container so text + image can sit side by side */
+      #intro {
+        display: flex;
+        flex-direction: column; /* fallback for smaller screens */
+        align-items: center;    /* center everything horizontally */
+        text-align: center;     /* keep text centered */
+        padding: 3rem 1rem;     /* some space around */
+      }
+
+      /* Wrap name + pic in a flex row for larger screens, fallback is column on small screens */
+      .intro-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      @media (min-width: 768px) {
+        .intro-content {
+          flex-direction: row; /* side by side on medium+ screens */
+        }
+      }
+
+      /* Style for the round profile picture */
+      .profile-pic {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #fff; /* optional border */
+        margin-bottom: 1rem;    /* spacing under the image on small screens */
+      }
+      @media (min-width: 768px) {
+        .profile-pic {
+          margin-right: 2rem; /* spacing on the right side for medium+ screens */
+          margin-bottom: 0;   /* remove bottom margin once side by side */
+        }
+      }
+
+      /* Fix any extra spacing for your main heading */
+      #intro h1 {
+        margin: 0;
+      }
+
+      /* Keep the header stable; remove the absolute positioning */
+      #header {
+        position: static;
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+      <!-- Intro -->
+      <div id="intro">
+        <!-- Container holding the image + text side by side -->
+        <div class="intro-content">
+          <img src="images/myphoto.jpg" alt="My Photo" class="profile-pic" />
+          <div>
+            <h1>Pareekshit Reddy<br/>Gaddam</h1>
+            <p>Machine Learning Engineer</p>
+          </div>
+        </div>
+        <ul class="actions" style="margin-top: 2rem;">
+          <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+      </div>
+
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">Projects</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active"><a href="index.html">Generative AI</a></li>
+          <li><a href="NLP_CV.html">NLP / CV</a></li>
+          <li><a href="Data Science_ML.html">Data Science & ML</a></li>
+          <li><a href="MLOps.html">MLOps</a></li>
+          <li><a href="databases.html">Databases</a></li>
+        </ul>
+        <ul class="icons">
+          <li><a href="https://www.linkedin.com/in/rounakbende/" class="icon brands fa-linkedin">
+            <span class="label">LinkedIn</span></a>
+          </li>
+          <li><a href="https://github.com/rounakbende10" class="icon brands fa-github">
+            <span class="label">GitHub</span></a>
+          </li>
+          <li><a href="mailto:rounakbende@gmail.com" class="icon solid fa-envelope">
+            <span class="label">Email</span></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Posts -->
+        <section class="posts">
+          <article>
+            <header>
+              <h2>
+                <a href="https://github.com/pareekshitreddy/Policy-Recommendation-System">
+                  Policy Recommendation System
+                </a>
+              </h2>
+            </header>
+            <a href="https://github.com/pareekshitreddy/Policy-Recommendation-System" class="image main">
+              <img src="images/APRS.jpeg" alt="" />
+            </a>
+            <p>
+              Applied Machine Learning Prototypes (AMP) for Cloudera's Open-Source tech stack,
+              enabling seamless deployment via Cloudera Machine Learning. This AMP offers one-click
+              deployment and generates policy recommendations, providing stakeholders and policymakers
+              with real-time insights for effective implementation.
+            </p>
+            <ul class="actions special">
+              <li>
+                <a href="https://github.com/pareekshitreddy/Policy-Recommendation-System" class="button large">
+                  View Project
+                </a>
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <header>
+              <h2>
+                <a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool">
+                  QuerySense: Natural Language to SQL Converter &amp; Database Query Tool
+                </a>
+              </h2>
+            </header>
+            <a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool" class="image fit">
+              <img src="images/natural_language_to_sql.webp" alt="" />
+            </a>
+            <p>
+              End-to-end LLM application for seamless conversion of natural language queries
+              into SQL queries, along with querying the database. Leveraging the Gemini-pro API
+              for language model capabilities and FLASK for user-friendly interface.
+            </p>
+            <ul class="actions special">
+              <li>
+                <a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool" class="button">
+                  View Project
+                </a>
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <header>
+              <h2>
+                <a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot">
+                  Ask Ally: Your Intuitive Q&amp;A Chatbot
+                </a>
+              </h2>
+            </header>
+            <a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot" class="image fit">
+              <img src="images/qachatbot.avif" alt="" />
+            </a>
+            <p>
+              End-to-End question-answering chatbot using Python and Streamlit, integrating
+              the Langchain language model and the OpenAI API for language understanding.
+              The application is deployed on Hugging Face Spaces.
+            </p>
+            <ul class="actions special">
+              <li>
+                <a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot" class="button">
+                  View Project
+                </a>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <!--
+        <section>
+          <form method="post" action="mailto:pareekshitgaddam@gmail.com">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </form>
+        </section>
+        -->
+        <section class="alt">
+          <h3>Address</h3>
+          <p>New York, NY, 10029</p>
+        </section>
+        <section>
+          <h3>Phone</h3>
+          <p><a href="Tel: 5133072627">(513) 307-2627</a></p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p><a href="mailto:pareekshitgaddam@gmail.com">pareekshitgaddam@gmail.com</a></p>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul class="icons alt">
+            <li>
+              <a href="https://www.linkedin.com/in/pareekshitreddyg/" class="icon brands alt fa-linkedin">
+                <span class="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/pareekshitreddy" class="icon brands alt fa-github">
+                <span class="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:pareekshitgaddam@gmail.com" class="icon solid fa-envelope">
+                <span class="label">Email</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </footer>
+
+      <!-- Copyright -->
+      <div id="copyright">
+        <ul>
+          <li>&copy; Pareekshit Reddy Gaddam</li>
+          <li>Machine Learning Engineer</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
